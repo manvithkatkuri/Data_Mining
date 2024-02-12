@@ -11,10 +11,15 @@ We have built a Predictive model to estimate client subscription likelihood. We 
 
 Data Description
 a) The dataset contains real data collected from a Portuguese retail bank, from May 2008 to June 2013, in total of 52944 phone contacts.
+
 b) Only 5289(11.7%)  records subscribed to the term deposit
+
 c) In the modeling phase, the dataset is reduced from the original set(150 features) to 17 relevant features that are used in ML models. 
+
 d) Input variables are age, job, marital status, education, and more.
+
 e) Target variable is whether a client subscribed to term deposit or not
+
 
 Results
 Gradient Boosting Metrics
@@ -26,7 +31,7 @@ ROC AUC: 0.93
 
 Insights
 
-1) Most Important features
+Most Important features
 a) Identified the most important features such as the duration of the last call, bank balance, day and more
 b) Best month to contact: May
 c) Best month day to contact: 20th
@@ -36,7 +41,7 @@ a) Accuracy for short duration (less than or equal to 100 secs): 0.98
 b) Accuracy for medium duration (greater than 100 seconds and less than or equal to 300 seconds): 0.90
 c) Accuracy for longer duration (greater than 300 seconds): 0.77
 
-2) Business Recommendations
+Business Recommendations
 
 1) Prioritize High-Value Leads 
       Focus marketing efforts on the 1,882 high-value leads as they have the highest conversion potential.
