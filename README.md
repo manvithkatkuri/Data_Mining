@@ -10,19 +10,19 @@ And our goal was to increase bank’s subscription rate for term deposits.
 We have built a Predictive model to estimate client subscription likelihood. We then identified key factors influencing subscription decisions and built a propensity score model to identify high-value leads. We have optimized marketing campaigns based on model insights and created segment-specific models for tailored campaigns.
 
 Data Description
-The dataset contains real data collected from a Portuguese retail bank, from May 2008 to June 2013, in total of 52944 phone contacts.
-Only 5289(11.7%)  records subscribed to the term deposit
-In the modeling phase, the dataset is reduced from the original set(150 features) to 17 relevant features that are used in ML models. 
-Input variables are age, job, marital status, education, and more.
-Target variable is whether a client subscribed to term deposit or not
+a) The dataset contains real data collected from a Portuguese retail bank, from May 2008 to June 2013, in total of 52944 phone contacts.
+b) Only 5289(11.7%)  records subscribed to the term deposit
+c) In the modeling phase, the dataset is reduced from the original set(150 features) to 17 relevant features that are used in ML models. 
+d) Input variables are age, job, marital status, education, and more.
+e) Target variable is whether a client subscribed to term deposit or not
 
 Results
 Gradient Boosting Metrics
-Accuracy: 0.91
-Precision: 0.68
-Recall: 0.40
-F1-score: 0.51
-ROC AUC: 0.93
+Accuracy: 0.91
+Precision: 0.68
+Recall: 0.40
+F1-score: 0.51
+ROC AUC: 0.93
 
 Insights
 
@@ -32,9 +32,9 @@ b) Best month to contact: May
 c) Best month day to contact: 20th
 
 Accuracy for Segment Specific Models Based on Call Duration
-1) Accuracy for short duration (less than or equal to 100 secs): 0.98
-2) Accuracy for medium duration (greater than 100 seconds and less than or equal to 300 seconds): 0.90
-3) Accuracy for longer duration (greater than 300 seconds): 0.77
+a) Accuracy for short duration (less than or equal to 100 secs): 0.98
+b) Accuracy for medium duration (greater than 100 seconds and less than or equal to 300 seconds): 0.90
+c) Accuracy for longer duration (greater than 300 seconds): 0.77
 
 2) Business Recommendations
 
